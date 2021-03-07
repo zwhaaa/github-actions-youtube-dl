@@ -5,7 +5,7 @@
 
 ## 注意！
 
-- **Github Release 最高可以发布 2G 大小的文件，注意自己的压缩包大小不要超过 2G。**（[官方文档说明](https://docs.github.com/cn/free-pro-team@latest/github/managing-large-files/distributing-large-binaries)）
+- **Github Release 最高可以发布 2G 大小的文件**（[官方文档说明](https://docs.github.com/cn/free-pro-team@latest/github/managing-large-files/distributing-large-binaries)），**所以视频文件超过 2G 后会进行分卷压缩，请下载全部前缀名为 downloaded 的文件并放在同目录下解压**
 
 - **请大家下载完成后尽量删除 Release 中无用的视频文件**
 
@@ -26,12 +26,12 @@
 3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
 4. 将你要下载的 YouTube 视频的地址填进 **play.list** 中，每行限一个视频链接，commit push 提交。
 
-![image-20201128121024007](README.assets/image-20201128121024007.png)
+![image-20210307231941399](README.assets/image-20210307231941399.png)
 
-5. Actions 自动运行后会将所有下载好的视频打包成 downloads.tar.gz 发布到 **Release** 中。
+5. Actions 自动运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 **Release** 中。
 6. 进入 Release，下载打包好的压缩文件。
 
-![image-20201128114604022](README.assets/image-20201128114604022.png)
+![image-20210307232152826](README.assets/image-20210307232152826.png)
 
 
 ## 计划中
@@ -39,7 +39,7 @@
 - [x] 使用 GitHub Action 下载视频
 - [x] 从列表中下载多个视频
 - [x] 自定义配置
-- [ ] 使用分卷压缩上传多个文件以解除 Release 文件 2G 大小的限制
+- [x] 使用分卷压缩上传多个文件以解除 Release 文件 2G 大小的限制
 
 
 ## License
