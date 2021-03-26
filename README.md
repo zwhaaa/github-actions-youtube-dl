@@ -13,18 +13,18 @@
 
 ## 使用
 
-1. Fork 本仓库。
+#### 1. Fork 本仓库。
 
 ![image-20201128114406344](README.assets/image-20201128114406345.png)
 
-2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions。
+#### 2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions。
 
 ![image-20201128114243884](README.assets/image-20201128114243884.png)
 
 ![image-20210227151337588](README.assets/image-20210227151337588.png)
 
-3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
-4. 将你要下载的 YouTube 视频的地址填进 **play.list** 中，每行限一个视频链接，commit push 提交。
+#### 3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
+#### 4. 将你要下载的 YouTube 视频的地址填进 *play.list* 中，每行限一个视频链接，Commit changes 提交。
 
 ![image-20210326104213586](README.assets/image-20210326104213586.png)
 
@@ -34,9 +34,9 @@
 
 ![image-20210326104530317](README.assets/image-20210326104530317.png)
 
-5. Actions 开始下载视频，请耐心等待 Actions 的运行状态变成绿色后再去 **Release** 下载。
-6. Actions 运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 **Release** 中。
-7. 进入 Release，下载打包好的压缩文件。
+#### 5. Actions 开始下载视频，请耐心等待 Actions 的运行状态从黄色变成绿色后再去 *Release* 下载。
+#### 6. Actions 运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 *Release* 中。
+#### 7. 进入 Release，下载打包好的压缩文件。
 
 ![image-20210307232152826](README.assets/image-20210307232152826.png)
 
@@ -49,7 +49,7 @@
 - [x] 从列表中下载多个视频
 - [x] 自定义配置
 - [x] 使用分卷压缩上传多个文件以解除 Release 文件 2G 大小的限制
-- [ ] 登陆 YouTube 账号以解除某些下载限制
+- [ ] 登陆 YouTube 账号以解除某些下载限制（年龄限制等）
 
 
 ## License
