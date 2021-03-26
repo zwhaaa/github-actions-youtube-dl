@@ -1,4 +1,4 @@
-# Github-actions-youtube-dl ![do](https://github.com/Heraldik/github-actions-youtube-dl/workflows/do/badge.svg)
+# Github-actions-youtube-dl
 
 使用 GitHub Actions 下载 YouTube 最高画质视频，并自动发布到 Release。
 
@@ -26,10 +26,17 @@
 3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
 4. 将你要下载的 YouTube 视频的地址填进 **play.list** 中，每行限一个视频链接，commit push 提交。
 
+![image-20210326104213586](README.assets/image-20210326104213586.png)
+
+![image-20210326104324499](README.assets/image-20210326104324499.png)
+
 ![image-20210307231941399](README.assets/image-20210307231941399.png)
 
-5. Actions 自动运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 **Release** 中。
-6. 进入 Release，下载打包好的压缩文件。
+![image-20210326104530317](README.assets/image-20210326104530317.png)
+
+5. Actions 开始下载视频，请耐心等待 Actions 的运行状态变成绿色后再去 **Release** 下载。
+6. Actions 运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 **Release** 中。
+7. 进入 Release，下载打包好的压缩文件。
 
 ![image-20210307232152826](README.assets/image-20210307232152826.png)
 
