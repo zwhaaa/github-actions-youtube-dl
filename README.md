@@ -15,32 +15,32 @@
 
 #### 1. Fork 本仓库。
 
-![image-20201128114406344](README.assets/image-20201128114406345.png)
+![image-20201128114406344](https://sc03.alicdn.com/kf/U1b919fe60d3c41b6907732abc04085b4C.jpg)
 
 #### 2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions。
 
-![image-20201128114243884](README.assets/image-20201128114243884.png)
+![image-20201128114243884](https://ae02.alicdn.com/kf/Uf0361991f56143fbb18cdcb47c151d17X.jpg)
 
-![image-20210227151337588](README.assets/image-20210227151337588.png)
+![image-20210227151337588](https://ae03.alicdn.com/kf/U7607400616b74c6cab3f04170606ae44U.jpg)
 
 #### 3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
 #### 4. 将你要下载的 YouTube 视频的地址填进 *play.list* 中，每行限一个视频链接，Commit changes 提交。
 
-![image-20210326104213586](README.assets/image-20210326104213586.png)
+![image-20210326104213586](https://ae03.alicdn.com/kf/Uafb6ab0f034c4721b4dada12a21ba8faq.jpg)
 
-![image-20210326104324499](README.assets/image-20210326104324499.png)
+![image-20210326104324499](https://ae03.alicdn.com/kf/U7a1afda864134852835d74e6b0dbca89w.jpg)
 
-![image-20210307231941399](README.assets/image-20210307231941399.png)
+![image-20210307231941399](https://ae03.alicdn.com/kf/U56b64cfd46af4b29ac5a158a85c41beeV.jpg)
 
-![image-20210326104530317](README.assets/image-20210326104530317.png)
+![image-20210326104530317](https://ae03.alicdn.com/kf/Uf953e4f2a46840a0a40007b796362d6eU.jpg)
 
 #### 5. Actions 开始下载视频，请耐心等待 Actions 的运行状态从黄色变成绿色后再去 *Release* 下载。
 #### 6. Actions 运行后会将所有下载好的视频打包成 downloaded.zip .z01 .z02 发布到 *Release* 中。
 #### 7. 进入 Release，下载打包好的压缩文件。
 
-![image-20210307232152826](README.assets/image-20210307232152826.png)
+![image-20210307232152826](https://ae02.alicdn.com/kf/U2cc4b6d2e58a4e90b855b43459a3029fs.jpg)
 
-![image-20210307234440331](README.assets/image-20210307234440331.png)
+![image-20210307234440331](https://sc04.alicdn.com/kf/U1c62e65434fb4901b2c096b728ae02efy.jpg)
 
 
 ## 计划中
