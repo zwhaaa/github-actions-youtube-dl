@@ -42,6 +42,23 @@
 
 ![image-20210307234440331](https://sc04.alicdn.com/kf/U1c62e65434fb4901b2c096b728ae02efy.jpg)
 
+## 运行失败的原因
+
+1. 视频因为 **地区限制** 而导致 Actions 运行失败（此问题无解）
+
+![image-failed](https://sc03.alicdn.com/kf/U9fbdca000450413ea930d0e09c128ca0Z.jpg)
+
+2. 视频因为 **年龄限制** 而导致下载失败（在 youtube-dl 中登陆自己的账号即可，请自行更改 `dl.conf` 与 `Actions secrets` 中的内容）
+
+![image-set0](https://ae03.alicdn.com/kf/U3e3a49159d57459688b9d7b5f32679d6O.jpg)
+
+![image-set1](https://sc04.alicdn.com/kf/Ucf0ecdbad48f4ce8b57c08bb2735fe6eF.jpg)
+
+3. 下载的链接中包含 `list` 导致下载时间超出 GitHub Actions 的六小时使用限制（请使用 YouTube 视频分享中的链接）
+
+![image-failed](https://ae02.alicdn.com/kf/Ua55b6de269714409aa5ad067d75f423dr.jpg)
+
+![image-set2](https://ae04.alicdn.com/kf/Ud2c19cc131964a328eb12584c8159346J.jpg)
 
 ## 计划中
 
@@ -49,7 +66,6 @@
 - [x] 从列表中下载多个视频
 - [x] 自定义配置
 - [x] 使用分卷压缩上传多个文件以解除 Release 文件 2G 大小的限制
-- [ ] 登陆 YouTube 账号以解除某些下载限制（年龄限制等）
 
 
 ## License
